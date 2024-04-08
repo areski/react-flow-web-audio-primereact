@@ -69,7 +69,7 @@ function ButtonsDemo() {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
 
-    <PrimeReactProvider value={{ unstyled: false, pt: Tailwind, ptOptions: { mergeSections: true, mergeProps: true, classNameMergeFunction: twMerge } }}>
+    <PrimeReactProvider value={{ unstyled: true, pt: Tailwind, ptOptions: { mergeSections: true, mergeProps: true, classNameMergeFunction: twMerge } }}>
 
       <ReactFlowProvider>
         <>
