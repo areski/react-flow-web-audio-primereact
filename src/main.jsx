@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import { ReactFlowProvider } from "reactflow";
 import './main.css';
-import App from "./App";
+import App from "./FlowApp";
 // import App from "./DataApp";
 import './main_add.css';
 

@@ -12,7 +12,7 @@ import Osc from "./nodes/Osc";
 import Amp from "./nodes/Amp";
 import Out from "./nodes/Out";
 
-// import "reactflow/dist/style.css";
+import "reactflow/dist/style.css";
 
 const nodeTypes = {
   osc: Osc,
